@@ -1,4 +1,6 @@
-#include <stdio.h>
+#include "fun.h"
+
+  #  include <stdio.h>
 
 int main(
   int *argc,
@@ -8,4 +10,6 @@ int main(
 	printf(
 			"Hello world!\n"
 		);
+
+			fun	();
 	return 0; }
