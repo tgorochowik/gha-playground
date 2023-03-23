@@ -1,7 +1,7 @@
-name: verible-review
+name: verible-trigger-receive
 on:
   workflow_run:
-    workflows: ["verible-trigger-send"]
+    workflows: verible-trigger-send
     types:
       - completed
 
