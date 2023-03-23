@@ -11,6 +11,6 @@ jobs:
     steps:
       - uses: antmicro/verible-linter-action/trigger-receive@triggers
       - name: Run Verible action
-        uses: chipsalliance/verible-linter-action@triggers
+        uses: chipsalliance/verible-linter-action@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
