@@ -1,0 +1,9 @@
+name: verible-trigger-send
+on:
+  pull_request:
+
+jobs:
+  verible-trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: antmicro/verible-linter-action/trigger-send@triggers
