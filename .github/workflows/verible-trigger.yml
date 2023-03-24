@@ -6,4 +6,4 @@ jobs:
   verible-trigger:
     runs-on: ubuntu-latest
     steps:
-      - uses: antmicro/verible-linter-action/trigger-send@triggers
+      - uses: chipsalliance/verible-linter-action/trigger-send@main

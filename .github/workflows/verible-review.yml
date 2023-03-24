@@ -9,7 +9,7 @@ jobs:
   verible-review:
     runs-on: ubuntu-latest
     steps:
-      - uses: antmicro/verible-linter-action/trigger-receive@triggers
+      - uses: chipsalliance/verible-linter-action/trigger-receive@main
       - name: Run Verible action
         uses: chipsalliance/verible-linter-action@main
         with:
